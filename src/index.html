@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV GENERATOR</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap");
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              poppins: ["Poppins", "sans-serif"],
+            },
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="flex flex-1 justify-center items-center flex-col">
+    <header class="h-16 flex items-center justify-center">
+      <div class="font-bold text-2xl font-poppins">CV GENERATOR</div>
+    </header>
+    <main
+      class="flex flex-1 font-poppins mt-8 xl:w-6/12 lg:w-9/12 md:w-10/12 w-11/12 bg-gray-100 p-2 rounded-2xl"
+    >
+      <div class="flex-2 h-full flex border-r-2 border-gray-300 flex-col px-1">
+        <div
+          class="rounded-full overflow-hidden mt-10"
+          style="height: 200px; width: 200px"
+        >
+          <img
+            src="./assests/me.jpg"
+            alt="zakaria rahali"
+            class="w-full h-full object-cover rounded-full"
+          />
+        </div>
+        <div class="mt-2 pb-4 mt-8">
+          <div class="font-poppins font-bold text-2xl mb-1">Zakaria</div>
+          <div class="font-poppins font-bold text-2xl">Rahali</div>
+          <div class="mt-2 mb-8">Web Developer</div>
+        </div>
+        <div class="border-b-2 border-gray-300 w-9/12"></div>
+        <div class="w-full mt-10">
+          <div class="text-2xl">skills</div>
+          <ul class="pl-4 mt-4 text-xl mb-8" style="list-style-type: disc">
+            <li class="mb-3">React Developer</li>
+            <li class="mb-3">React Native</li>
+            <li class="mb-3">Designer</li>
+            <li class="mb-3">javascript Developer</li>
+          </ul>
+          <div class="border-b-2 border-gray-300 w-9/12"></div>
+          <div class="text-2xl mt-10">Education</div>
+          <ul style="list-style-type: disc" class="pl-4 mt-4 mb-8">
+            <li class="mb-4">
+              <div class="text-lg">2022 - 2023</div>
+              <div class="text-xl font-bold">Branding</div>
+              <div>University name</div>
+            </li>
+            <li class="mb-4">
+              <div class="text-lg">2022 - 2023</div>
+              <div class="text-xl font-bold">Branding</div>
+              <div>University name</div>
+            </li>
+            <li class="mb-4">
+              <div class="text-lg">2022 - 2023</div>
+              <div class="text-xl font-bold">Branding</div>
+              <div>University name</div>
+            </li>
+          </ul>
+          <div class="border-b-2 border-gray-300 w-9/12"></div>
+          <div class="text-2xl mt-10">Languages</div>
+          <ul style="list-style-type: disc" class="pl-4 mt-4 mb-8">
+            <li>
+              <div
+                class="flex justify-between items-center mr-5 md:mr-4 lg:mr-4"
+              >
+                <div class="text-lg">French</div>
+                <div class="bg-gray-300 w-7/12 rounded-full h-3">
+                  <div class="bg-gray-500 w-5/12 rounded-full h-3"></div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                class="flex justify-between items-center mr-5 md:mr-4 lg:mr-4"
+              >
+                <div class="text-lg">English</div>
+                <div class="bg-gray-300 w-7/12 rounded-full h-3">
+                  <div class="bg-gray-500 w-8/12 rounded-full h-3"></div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                class="flex justify-between items-center mr-5 md:mr-4 lg:mr-4"
+              >
+                <div class="text-lg">Arabic</div>
+                <div class="bg-gray-300 w-7/12 rounded-full h-3">
+                  <div class="bg-gray-500 w-full rounded-full h-3"></div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="ml-5 flex-1 flex items-center flex-col">
+        <div class="mt-10">
+          <div class="text-2xl font-bold">About Me :</div>
+          <p class="lg:w-9/12 mt-8">
+            The word "résumé" comes from the French word résumer meaning 'to
+            summarize'. Leonardo da Vinci is credited with the first résumé,
+            though his "résumé" takes the form of a letter written about
+            1481–1482 to a potential employer , Ludovico Sforza.
+          </p>
+        </div>
+        <div class="border-b-2 border-gray-300 w-10/12 mt-10"></div>
+      </div>
+    </main>
+  </body>
+</html>
